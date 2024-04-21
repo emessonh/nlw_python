@@ -1,7 +1,7 @@
 from src.models.settings.base import Base
 from sqlalchemy import Column, String, ForeignKey, DateTime
 from sqlalchemy.sql import func
-from src.models.entities.events import Events
+# from src.models.entities.events import Events
 
 class Attendees(Base):
     __tablename__="attendees"
